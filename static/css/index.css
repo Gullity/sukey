@@ -4,13 +4,6 @@ body {
 
 main {
     width: 85%;
-    float: right
-}
-
-.footer {
-    clear: both;
-}
-
-.footer ul {
-    list-style-type: none;
+    float: right;
+    padding-bottom: 25px;
 }
