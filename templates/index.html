@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+
+<!--
+    Lang="pt-BR" não interferem no HTML, são apenas valores pra informar qual o idioma se encontra,
+    por exemplo alguns navegadores possuem detecção de idioma da página e eles podem repassar
+    pra algum plugin isso, ou um plugin (add-on/extensão) podem usar o atributo diretamente.
+-->
+<html lang="pt-BR">
+
+<head>
+    <!-- Aqui temos algumas explicações e é explorado mais sobre como os metadados funcionam:
+            - https://www.devmedia.com.br/html-meta-tags-entendendo-o-uso-de-meta-tags/30328
+    -->
+    <meta charset="UTF-8" />
+    <meta name="copyright" content="© 2022 Sukey - Reconectar" />
+
+    <title>Sukey</title>
+
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/cabecario.css">
+    <link rel="stylesheet" href="../static/css/comunidade.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="cabecalho_principal">
+            <img class="logo_img" src="../static/img/logo.png" />
+            <ul class="menu_superior">
+                <li><a href=""><img class="favoritos_img" src="../static/img/bolsa-de-compras.png" /></a></li>
+                <li><a href=""><img class="favoritos_img" src="../static/img/coracao.png" /></a></li>
+            </ul>
+        </section>
+    </header>
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <section class="comunidade">
+            <textarea></textarea>
+        </section>
+
+        <section class="produtos">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li class="footer-menu-title"><strong> Ajuda </strong></li>
+            <div class="submenu">
+                <li><a href=""> Central de ajuda </a></li>
+                <li><a title="Termos de uso" href=""> Termos de uso </a></li>
+                <li><a title="Políticas de privacidade" href="...">Política de privacidade </a></li>
+                <li><a title="Política de dados para parceiros" href="">Política de dados para parceiros </a></li>
+            </div>
+        </ul>
+        </section>
+    </footer>
+</body>
+
+</html>
